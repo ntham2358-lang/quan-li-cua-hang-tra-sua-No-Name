@@ -9,6 +9,6 @@ def get_connection():
         port=os.getenv("DB_PORT", "5432"),
         dbname=os.getenv("DB_NAME", "noname_pos"),
         user=os.getenv("DB_USER", "postgres"),
-        password=os.getenv("DB_PASSWORD", "1234"),
+        password=os.getenv("DB_PASSWORD", "28102006"),
         cursor_factory=RealDictCursor,
     )
